@@ -1,4 +1,4 @@
-# Starter Project for spinning up Quick WebAPIs during interviews
+# Starter template for spinning up quick webapis with FastAPI
 
 - Uses Make for automation
 - FastAPI as API Development Framework
@@ -8,9 +8,13 @@
 
 ## Usage
 
+
 make install         # sets up venv and installs deps
+
 make run             # runs server with reload
+
 make run-dev         # runs with fastapi dev (dev-mode auto-reload)
+
 make migrations      # generates and applies alembic migrations
 
 ## License
