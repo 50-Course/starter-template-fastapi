@@ -9,6 +9,7 @@
 ## Usage
 
 
+```
 make install         # sets up venv and installs deps
 
 make run             # runs server with reload
@@ -16,6 +17,8 @@ make run             # runs server with reload
 make run-dev         # runs with fastapi dev (dev-mode auto-reload)
 
 make migrations      # generates and applies alembic migrations
+
+```
 
 ## License
 
